@@ -14,8 +14,8 @@
   495  pwd
   496  cd .ssh/
   497  ls -la
-  498  cp id_rsa /home/mabel/.ssh/
-  499  cp id_rsa.pub /home/mabel/.ssh/
+  498  cp id_rsa /home/carpetaUsuEspecificoa/.ssh/
+  499  cp id_rsa.pub /home/carpetaUsuEspecificoa/.ssh/
   500  exit
 
 ### comandos revisados
@@ -26,13 +26,16 @@
 - node cuatro.js tres cuatro cinco seis
 
 
-  399  ssh-keygen -t rsa -C "mabelpeniagarcia777@gmail.com"
+  ~~~399  ssh-keygen -t rsa -C "correo"
   400  cat ~/.ssh/id_rsa.pub
   401  ls -la
   402  ls -la ~/.ssh/
-  403  cat ~/.ssh/id_rsa.pub
+  403  cat ~/.ssh/id_rsa.pub~~~
 
 ### instalaciones
 - npm init, 
 - npm init -y,
 - npx install-peerdeps --dev eslint-config-airbnb
+
+
+[MDN web - Array.prototype.forEach()](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach)
